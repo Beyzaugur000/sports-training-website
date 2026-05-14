@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Active Exercise Physiology - Bizimle harekete geçin ve iyi hissedin</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="tasarim.css">
+</head>
+<body id="yukari">
+	<header>
+		<div class="genis-ekranda-ortala">
+			<a id="header-logo" href="#">
+				<img src="img/logo.png" alt="Logo">
+			</a>
+			<nav class="header-nav sadece-desktop">
+				<ul>
+					<li>
+						<a class="nav-link" href="#">ANA SAYFA</a>
+					</li>
+					<li>
+						<a class="nav-link" href="#hizmetler">HİZMETLERİMİZ</a>
+					</li>
+					<li class="header-nav-daha-fazla" onclick="navDesktopDahaFazlaMenusunuAcVeyaKapat()">
+						<a class="nav-link header-nav-daha-fazla-btn">
+							DAHA FAZLA <i class="fas fa-caret-down"></i>
+						</a>
+						<ul class="header-nav-daha-fazla-menu gizle">
+							<li>
+								<a class="nav-link" href="#magaza">MAĞAZAMIZ</a>
+							</li>
+							<li>
+								<a class="nav-link" href="#musteri-oykuleri">MÜŞTERİ ÖYKÜLERİ</a>
+							</li>
+							<li>
+								<a class="nav-link" href="#sss">SIK SORULAN SORULAR</a>
+							</li>
+							<li>
+								<a class="nav-link" href="#iletisim">İLETİŞİM</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<nav class="header-nav sadece-mobil">
+		<ul>
+			<li class="header-nav-daha-fazla" onclick="navMobilDahaFazlaMenusunuAcVeyaKapat()">
+				<a class="nav-link header-nav-daha-fazla-btn">
+					MENÜ <i class="fas fa-caret-down"></i>
+				</a>
+				<ul class="header-nav-daha-fazla-menu gizle">
+					<li>
+						<a class="nav-link" href="#">ANA SAYFA</a>
+					</li>
+					<li>
+						<a class="nav-link" href="#hizmetler">HİZMETLERİMİZ</a>
+					</li>
+					<li>
+						<a class="nav-link" href="#magaza">MAĞAZAMIZ</a>
+					</li>
+					<li>
+						<a class="nav-link" href="#musteri-oykuleri">MÜŞTERİ ÖYKÜLERİ</a>
+					</li>
+					<li>
+						<a class="nav-link" href="#sss">SIK SORULAN SORULAR</a>
+					</li>
+					<li>
+						<a class="nav-link" href="#iletisim">İLETİŞİM</a>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+	<main>
+
+		<section id="slideshow">
+			<div class="slideshow-container">
+				<div class="slideshow-yazi">
+					<h2>Bizimle harekete geçin ve iyi hissedin.</h2>
+					<a href="#" class="btn" id="slideshow-btn">DAHA FAZLA BİLGİ</a>
+				</div>
+				<div class="mySlides fade"><img src="img/slider1.jpg"></div>
+				<div class="mySlides fade"><img src="img/slider2.jpg"></div>
+				<div class="mySlides fade"><img src="img/slider3.jpg"></div>
+				<div class="mySlides fade"><img src="img/slider4.jpg"></div>
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+		</section>
+
+		<section class="genis-ekranda-ortala" id="hizmetler">
+			<h2>HİZMETLERİMİZ</h2>
+			<div class="baslik-ayraci ortala"></div>
+			<div class="hizmet hizmet-sol">
+				<img class="hizmet-img" src="img/hizmet1.png" alt="">
+				<h3>Egzersiz Fizyolojisi</h3>
+				<p>Kronik sağlık durumları ve yaralanmalar için egzersiz rehabilitasyonu. Akredite bir Egzersiz Fizyologu tarafından yürütülen seanslar. Şu anda COVID-19 yönergeleri yürürlükteyken düşük riskli müşteriler için yüz yüze hizmetler ve yüksek riskli müşteriler için çevrimiçi TeleSağlık Hizmetleri sunuyoruz.</p>
+				<a href="#" class="btn">DAHA FAZLA BİLGİ</a>
+				<div style="clear: both;"></div>
+			</div>
+			<div class="hizmet hizmet-sag">
+				<img class="hizmet-img" src="img/hizmet2.png" alt="">
+				<h3>Grup Eğitimi</h3>
+				<p>Aktif Grup Antrenmanı ve CrossFit Sapphire olmak üzere iki ana programımız için geniş bir grup antrenman seansının yanı sıra Mobility, Sweat & Recover ve Açık Spor Salonu tamamlayıcı seanslarımız sunuyoruz. Katılımcı sayımızı 14 kişi ile sınırladığımız için rezervasyon önemlidir.</p>
+				<a href="#" class="btn">DAHA FAZLA BİLGİ</a>
+				<div style="clear: both;"></div>
+			</div>
+			<div class="hizmet hizmet-sol">
+				<img class="hizmet-img" src="img/hizmet3.png" alt="">
+				<h3>Kişisel Gelişim</h3>
+				<p>Zindeliğinizi, vücut kompozisyonunuzu ve sağlığınızı geliştirmek için özel antrenman seansları. Rezervasyon gereklidir.</p>
+				<a href="#" class="btn">DAHA FAZLA BİLGİ</a>
+				<div style="clear: both;"></div>
+			</div>
+			<div class="hizmet hizmet-sag">
+				<img class="hizmet-img" src="img/hizmet4.png" alt="">
+				<h3>CrossFit Çocuklar ve Gençler</h3>
+				<p>İlkokul ve Lise çağındaki katılımcılar için özel CrossFit Kids sınıfları.</p>
+				<a href="#" class="btn">DAHA FAZLA BİLGİ</a>
+				<div style="clear: both;"></div>
+			</div>
+		</section>
+		<div class="bolum-ayraci"></div>
+
+		<section class="genis-ekranda-ortala" id="magaza">
+			<h2>MAĞAZAMIZ</h2>
+			<div class="baslik-ayraci ortala"></div>
+			<div id="magaza-icerik">
+				<img id="magaza-img" src="img/magaza.png" alt="">
+				<p>Active EP ve CrossFit Sapphire giyim ürünlerini artık çeşitli erkek, kadın ve çocuk tarzlarında online mağazamızdan satın alabilir ve doğrudan size teslim edilecektir.</p>
+				<p>Ocak 2020'deki yıkıcı yangınlardan zarar gören yerel topluluğumuzu desteklemek için özel "Birlikte Daha Güçlü" BushFire Bağış Toplama atletlerimiz ve tişörtlerimiz de buradan satın alınabilir.</p>
+				<p>Satın alma işleminizi gerçekleştirmek üzere doğrudan çevrimiçi mağazamıza gitmek için <a href="#"><strong>BURAYI TIKLAYIN</strong></a>.</p>
+				<div style="clear: both;"></div>
+			</div>
+		</section>
+		<div class="bolum-ayraci"></div>
+
+		<section class="genis-ekranda-ortala" id="musteri-oykuleri">
+			<h2>MÜŞTERİ ÖYKÜLERİ</h2>
+			<div class="baslik-ayraci ortala"></div>
+			<div>
+				<div class="musteri-oykuleri-sutun">
+					<div class="musteri-oykusu">
+						<h3>Renee Gallagher:</h3>
+						<p>"2016 yılının ortalarında Active EP ile başladığımda hem fiziksel hem de zihinsel olarak kendimle mutsuzdum. İçinde bulunduğum ciltten mutsuzdum ve kendime güvenim yoktu. Başladım çünkü sadece benim için olan bir şeye ihtiyacım olduğunu hissettim - o çıkışım oldu. Bulduğum şey mutlu bir yerdi Kim, Jake ve Clinto'dan aldığım destek hayal ettiğimden çok daha fazlası oldu! Etrafımda pozitiflik var ve asla mümkün olduğunu düşünmediğim hedeflere ulaştım. Bana her gün ilham veren harika insanlar Kilo verdim ama bundan daha fazlası her gün fiziksel olarak güçleniyorum ve içinde bulunduğum cildi sevmeye başladım. Zihinsel olarak hiç olmadığım kadar güçlü olduğumu keşfettim. Kim , Jake ve Clinto yolun her adımında yanınızdalar – daha önce hiç bu kadar desteklendiğimi ve cesaretlendirildiğimi hissetmemiştim. Active EP ekibini dahil olduğum diğer programlardan ayıran şey bu (çok oldu!!) – biz hepsi bu harika destek ekibinin parçası! Sadece kendimi değil ailemi de etkiledi. Küçük oğlanlarımın artık oynayan ve onlara ayak uydurabilen mutlu bir anneleri var. Harika yemek seçimleri yapıyoruz ve erkek çocuklarımızı hayata hazırlayacak yaşam boyu sürdürülebilir değişiklikler yaptık. Active EP'deki ekibe, yanımda durup, yapamayacağımı düşündüğümde dik durmama yardım ettikleri için ne kadar teşekkür etsem azdır!"</p>
+						<img class="musteri-oykusu-img" src="img/musteri1.jpg" alt="">
+					</div>
+					<div class="musteri-oykusu">
+						<h3>Ursula Vannini:</h3>
+						<p>"62 yaşında emekliliğe doğru çalışırken, 18 ay önce Better Body Project oturumlarına katılarak Active EP'de başladım. Hayatım boyunca, egzersiz derslerinin çoğuna katıldım ama uzun vadeli kazanç için taahhütte bulunmada sorun yaşadım. Üç yıl önce, Kar kayağı yapmaya başladım ve emeklilik planım olabileceğim en zinde versiyonum olmak olduğu için kondisyonumu geliştirmem gerektiğini fark ettim! dramatik, ama eklemlerimden ve "hemşireler"den gelen ağrılarım ve ağrılarım çok daha iyi idare ediliyor. Artık sadece egzersiz yapmaktan ağrılarım var! Artık yirmili yaşlarımdan beri olduğumdan daha güçlü ve zindeyim. Kayak yapmam çarpıcı biçimde iyileşti. Active EP topluluğundan gelen olumlu zorluklara ve motivasyona maruz kalmam nedeniyle yediğim yiyecekler ve günlük aktiviteler için tercihlerim daha iyiye doğru değişti. Sürekli değişen program beni motive etti. Kim'in yeterliliği nedeniyle Active EP'yi seçtim. Bir Egzersiz Fizyologu olarak, vücuduma ve yaralarına bakacağı konusunda bana güven verdi. Şimdi bir spor salonu seansını kaçırmaktan nefret ediyorum. Her zaman arkadaş canlısı, maddi, teşvik edici ve bilgilendirici ve bir bonus olarak, benzer düşünen yeni arkadaşlar edindim!"</p>
+						<img class="musteri-oykusu-img" src="img/musteri4.jpg" alt="">
+					</div>
+				</div>
+				<div class="musteri-oykuleri-sutun">
+					<div class="musteri-oykusu">
+						<h3>Tennille Koellner:</h3>
+						<p>"Active EP'nin Better Body Project Online'ı benim için her şeyi değiştirdi. Sadece vücut yağını kaybetmekle ve fiziksel olarak vücudumda inanılmaz değişiklikler görmekle kalmadım, aynı zamanda Active EP bana özgüvenimi nasıl bulacağımı, hayatımda dengeyi nasıl bulacağımı ve ilerlememe nasıl aşık olacağımı gösterdi."</p>
+						<img class="musteri-oykusu-img" src="img/musteri2.jpg" alt="">
+					</div>
+					<div class="musteri-oykusu">
+						<h3>Matt Blacka:</h3>
+						<p>“Yaklaşık 18 aydır Active EP'deyim. Bu süre zarfında, ameliyat gerektirmenin eşiğinde ciddi bir sırt yaralanması teşhisi kondu. Active EP'deki ekibin desteği ve özverisiyle, eğitim oturumlarını değiştirebildiler ve hareketliliğimi ve gücümü geliştirmeme yardımcı oldular. En iyi haber, 10 aydır ağrım yok ve kendimi harika hissediyorum. Better Body Project sınıflarının yanı sıra CrossFit seanslarını karıştırmaktan zevk alıyorum. Kim, Jake ve Clinton'ın hepsinin, insanları kendilerinin daha iyi bir versiyonu haline getirme ve tüm müşterilerin bunu gerçekleştirmelerine yardımcı olmak için her şeyin ötesine geçme tutkusu vardır. Active EP'nin her antrenmana getirdiği eğlenceli atmosferden gerçekten keyif alıyorum.”</p>
+						<img class="musteri-oykusu-img" src="img/musteri3.jpg" alt="">
+					</div>
+					<div class="musteri-oykusu">
+						<h3>Mick Gallagher:</h3>
+						<p>"Eylül 2016'da büyük bir uyandırma çağrısı aldım. Kendimi diğer aile üyelerinin büyürken göreceğim tembel baba ve tembel koca olarak buldum. Oğullarım kalkıp onlarla bir şeyler yapmam için beni zorluyorlardı, eşimin evin içinde yardıma ihtiyacı var ama yorgundum ve enerjim yoktu. Futbol oynadığım için oldukça formda olmama rağmen, erkeklerle düzenli olarak içiyordum ve oldukça yağlı bir diyet yiyordum. Aynaya baktım bir Bu değişiklik, Aktif Egzersiz Fizyolojisinin 8 haftalık Daha İyi Vücut Projesi mücadelesini sunduğunda geldi. Bu benim dönüm noktamdı. Kim ile Body Project eğitimi Aktif Egzersiz Fizyolojisi sadece vücut yağını parçalamama ve yağsız kas kütlesi kazanmama yardımcı olmakla kalmadı, aynı zamanda bana sağlıklı beslenmenin ve sağlıklı, mutlu, aktif bir yaşam tarzının anahtarındaki dengeyi öğretti."</p>
+						<img class="musteri-oykusu-img" src="img/musteri5.jpg" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="bolum-ayraci"></div>
+		
+		<section class="genis-ekranda-ortala" id="sss">
+			<h2>SIK SORULAN SORULAR</h2>
+			<div class="baslik-ayraci ortala"></div>
+			<div id="sss-icerik">
+				<button class="accordion">Kendime uygun egzersiz planını nasıl seçebilirim?</button>
+				<div class="panel">
+					<p>Tüm müşterilerimize ücretsiz olarak kişiye özel vücut analizi, diyet planı ve koçluk hizmeti veriyoruz.</p>
+				</div>
+				<button class="accordion">Haftanın hangi günleri açıksınız?</button>
+				<div class="panel">
+					<p>Pazar hariç haftanın her günü açığız.</p>
+				</div>
+				<button class="accordion">Sizinle nasıl iletişime geçebilirim?</button>
+				<div class="panel">
+					<p>Hemen aşağıdaki iletişim formunu kullanabilirsiniz.</p>
+				</div>
+			</div>
+		</section>
+		<div class="bolum-ayraci"></div>
+
+		<section class="genis-ekranda-ortala" id="iletisim">
+			<h2>İLETİŞİM</h2>
+			<div class="baslik-ayraci ortala"></div>
+			<div>
+				<div class="iletisim-sutun" id="iletisim-bilgiler">
+					<p>
+						2/28 Buckajo Rd, Bega NSW, Australia<br>
+						PO Box 1001 Bega NSW 2550
+					</p><br>
+					<p><i class="fas fa-phone"></i> 0402947533 - Kim Bobbin</p>
+					<p><a href="mailto:kim@activeep.com"><i class="fas fa-envelope"></i> kim@activeep.com</a></p>
+					<p>
+						<i class="fas fa-clock"></i> Randevu ile:<br>
+						06:00-19:15 Pazartesi-Cuma<br>
+						07:45-22:00 Cumartesileri
+					</p>
+				</div>
+				<div class="iletisim-sutun" id="iletisim-form">
+					<input type="text" id="inp-isim" placeholder="İsminiz"><input type="text" id="inp-soyisim" placeholder="Soyisminiz">
+					<input type="text" id="inp-telefon" placeholder="Telefon numaranız">
+					<input type="email" id="inp-eposta" placeholder="E-posta adresiniz">
+					<textarea id="inp-mesaj" rows="6" placeholder="Mesajınız"></textarea>
+					<input class="btn" id="gonder-btn" type="submit" value="GÖNDER">
+				</div>
+			</div>
+		</section>
+		<div class="bolum-ayraci"></div>
+
+	</main>
+	<footer class="genis-ekranda-ortala">
+		<div id="footer-sag">
+			<nav id="footer-nav">
+				<ul>
+					<li>
+						<a class="nav-link" href="#">ANA SAYFA</a>
+					</li>
+					<li>
+						<a class="nav-link" href="#hizmetler">HİZMETLERİMİZ</a>
+					</li>
+					<li>
+						<a class="nav-link" href="#magaza">MAĞAZAMIZ</a>
+					</li>
+					<li>
+						<a class="nav-link" href="#musteri-oykuleri">MÜŞTERİ ÖYKÜLERİ</a>
+					</li>
+					<li>
+						<a class="nav-link" href="#sss">SIK SORULAN SORULAR</a>
+					</li>
+					<li>
+						<a class="nav-link" href="#iletisim">İLETİŞİM</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div id="footer-sol">
+			<h3>Active Exercise Physiology, Bega</h3>
+			<small>Copyright © 2022 Tüm hakları saklıdır.</small>
+			<div class="baslik-ayraci"></div>
+			<a href="#" class="sosyal-btn"><i class="fab fa-facebook-f"></i></a>
+			<a href="#" class="sosyal-btn"><i class="fab fa-twitter"></i></a>
+			<a href="#" class="sosyal-btn"><i class="fab fa-instagram"></i></a>
+		</div>
+		<div style="clear: both;"></div>
+	</footer>
+
+	<a id="yukari-btn" href="#yukari"><i class="fas fa-arrow-up"></i></a>
+
+	<script src="olaylar.js"></script>
+</body>
+</html>
